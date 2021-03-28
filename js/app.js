@@ -26,7 +26,7 @@ qwerty.forEach((button) => {
 
 // Keys (Keyup)
 document.addEventListener("keyup", (e) => {
-  const userGuess = e.key;
+  const userGuess = e.key.toLowerCase();
 
   qwerty.forEach((button) => {
     if (userGuess === button.textContent && !button.disabled) {
