@@ -1,5 +1,4 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
+/* Project 4 - OOP Game App
  *  app.js*/
 const startGame = document.querySelector("#btn__reset");
 const overlay = document.querySelector("#overlay");

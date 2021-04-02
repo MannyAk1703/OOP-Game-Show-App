@@ -1,5 +1,4 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
+/* Project 4 - OOP Game App
  * Phrase.js */
 let display = document.getElementById("phrase").childNodes[1];
 let li = display.children;
